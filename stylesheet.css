@@ -1,0 +1,56 @@
+.top{
+    text-align: center;
+}
+
+.bottom{     
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.center-container {
+    text-align: center; /* Center text horizontally within the container */
+    width: 400px;
+}
+
+.center-container h3{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.center-container #intro{
+    margin-top: 0;
+}
+
+
+.top #pfp {
+    width: 400px;
+    height: 280px;
+    border-radius: 20%;
+    border-style: solid;
+    border-width: 8px;
+    margin: 5px;
+}
+
+a{
+    color: black;
+    font-style: italic;
+}
+a:hover{
+    color: blue;
+}
+
+.top #gmail{
+    width : 20px;
+    height : 15px;
+}
+
+.top #github{
+    width : 22px;
+    height : 22px;
+}
+
+.top #linkedin{
+    width : 20px;
+    height : 20px;
+}
